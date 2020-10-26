@@ -1,0 +1,30 @@
+1) branch allows to create another line of development
+2)navigate between the branches
+3)to combine changes from another branches
+4).gitignore file is used to ignore the file
+5)upload local repository content to remote repository
+6)saves the uncommitted changes for later use
+7)head refers to the last commit in current branch.
+8)fetch content from the remote repository to the local repository 
+9)shows the remote repository
+10)undoing the changes to a repository commit history
+11)points to specific versions 
+12)to rename the file
+13)create new blank repository and initialize
+14)add changes in the working directory to the staging area
+15)save changes to the local repository
+16) downloads an existing repository to local computer
+17)used for undoing changes to a repository commit history
+18)difference between the changes made on a file
+19)information about previous commits
+20)status of the working directory and staging area
+21)git config --global user.name "abc"
+git config --global user.email"abc@gmail.com'
+22)local repository one on which we make local changes.
+Centralized repository stores everythimg in one place  where we work on the code while connected to the server
+distributed server can be accessed and modified.
+23)open-source,speed,secure,reliable,fast,scalable
+24)vcs is a software tool which helps to record changes to files by keeping a track of modifications done to the code.
+It helps to compare files and versions,identify differences and merge the changes.
+25)index file contains a list of pathnames with permissions.
+
