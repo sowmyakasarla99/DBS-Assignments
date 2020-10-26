@@ -1,0 +1,72 @@
+<Html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    <style>
+        .form-container{
+            position: absolute;
+            top:10vh;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #000;
+
+        }
+        h{
+            font-size: 25px;
+        }
+    </style>
+     <h><center><b>Registration Form</b></center></h>
+    </head>  
+    <body>  
+       
+        <section class="container-fluid">
+            <section class="row justify-content-center">
+                <section class="col-12 col-sm-6 col-md-3">
+                    <form class="form-container">
+                        <label> Firstname </label>         
+                        <input type="text" name="firstname" size="15"/> <br><br>
+                        <label> Lastname </label>         
+                        <input type="text" name="lastname" size="15"/> <br> <br>  
+      
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                         
+                        </div><br>
+                        <label for="birthday">DOB</label>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+                        <label>   
+                            Gender :  
+                            </label><br>  
+                            <input type="radio" name="male"/> Male <br>  
+                            <input type="radio" name="female"/> Female <br>  
+                            <input type="radio" name="other"/> Other  
+                            <br>  
+                            <br> 
+                            <label>   
+                                Phone :  
+                                </label>  
+                                <input type="text" name="country code"  value="+91" size="2"/>   
+                                <input type="text" name="phone" size="10"/> <br> <br>  
+                                Address  
+                                <br>  
+                                <textarea cols="80" rows="4" value="address">  
+                                </textarea><br><br>
+                              
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">I Agree to the terms and conditions.</label>
+                        </div><br>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                      </form>
+                </section>
+            </section>
+
+        </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>  
+    </html>  
